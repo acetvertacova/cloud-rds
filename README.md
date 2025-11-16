@@ -224,3 +224,32 @@ You have two options to connect your application to Amazon RDS and perform basic
 <img src="lab-5-screenshots/deleted-task-on-interface.png">
 
 > This setup ensures that write-heavy operations do not overload the primary database, while read-heavy queries are served by the replica for better performance.
+
+---
+
+## Conclusion
+
+During this lab, the main features of **Amazon RDS** and **Read Replicas** were explored and applied in practice:
+
+- **Created and configured a VPC** with public and private subnets for database and application deployment.  
+- **Deployed an Amazon RDS instance** with MySQL, configured security groups, and connected from an EC2 instance.  
+- **Created tables and performed CRUD operations** using the MySQL client.  
+- **Configured a Read Replica**, tested read-only queries, and verified replication from the primary database.  
+- **Deployed a simple web application** with CRUD operations, using the primary instance for writes and the read replica for reads.  
+
+As a result, practical experience was gained in using Amazon RDS for relational databases, understanding replication, and optimizing database workloads with Read Replicas.
+
+---
+
+## Useful Links
+
+- [Amazon RDS — Official AWS Page](https://aws.amazon.com/rds/)  
+- [Amazon RDS User Guide (AWS Documentation)](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)  
+- [Introduction to AWS RDS and DynamoDB (GeeksforGeeks)](https://www.geeksforgeeks.org/introduction-to-amazon-rds-and-dynamodb/)  
+- [Cloud Databases: AWS RDS and DynamoDB](https://github.com/MSU-Courses/cloud-computing/tree/main/07_AWS_DB))
+
+
+
+
+
+
