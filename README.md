@@ -245,7 +245,6 @@ As a result, practical experience was gained in using Amazon RDS for relational 
 
 - [Amazon RDS — Official AWS Page](https://aws.amazon.com/rds/)  
 - [Amazon RDS User Guide (AWS Documentation)](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)  
-- [Introduction to AWS RDS and DynamoDB (GeeksforGeeks)](https://www.geeksforgeeks.org/introduction-to-amazon-rds-and-dynamodb/)  
 - [Cloud Databases: AWS RDS and DynamoDB](https://github.com/MSU-Courses/cloud-computing/tree/main/07_AWS_DB))
 
 
